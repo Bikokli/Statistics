@@ -1,9 +1,9 @@
-import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import ru.netology.StaticsService;
 
 public class StaticsServiceTest {
-    private AssertJUnit Assertions;
+
 
     // 1.Сумму всех продаж.
     @Test

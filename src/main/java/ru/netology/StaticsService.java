@@ -16,13 +16,14 @@ public class StaticsService {
 
     // 2.Среднюю сумму продаж в месяц.
     public int averageSalesPerMonth(int[] averageSum) {
-
         int sumSale = 0;
         int i;
         for (i = 0; i < averageSum.length; i++) {
             sumSale = sumSale + averageSum[i];
 
         }
+        int average = sumSale / 12;
+        return average;
     }
 
     // 3.Номер месяца, в котором был пик продаж, то есть осуществлены продажи на максимальную сумму*.
